@@ -12,3 +12,4 @@ RUN pacman -S graphviz --noconfirm
 RUN pacman -S cargo --noconfirm
 RUN pacman -S wget --noconfirm
 RUN pacman -S python-pip --noconfirm
+RUN pacman -S php --noconfirm
