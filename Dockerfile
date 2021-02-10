@@ -1,6 +1,6 @@
 FROM archlinux:latest
 
-RUN pacman -Syy
+RUN pacman -Syyu --noconfirm
 RUN pacman -S base-devel --noconfirm
 RUN pacman -S texlive-most --noconfirm
 RUN pacman -S texlive-lang --noconfirm
@@ -13,3 +13,4 @@ RUN pacman -S cargo --noconfirm
 RUN pacman -S wget --noconfirm
 RUN pacman -S python-pip --noconfirm
 RUN pacman -S php --noconfirm
+RUN pacman -S pandoc --noconfirm

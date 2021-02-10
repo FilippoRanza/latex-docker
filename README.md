@@ -22,5 +22,6 @@ This software are available:
 - matplotlib
 - graphwiz
 - base-devel
-- php
+- php 8
+- pandoc
 
