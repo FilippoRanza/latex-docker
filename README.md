@@ -10,12 +10,18 @@ capable of compile latex documents using ```latexmk``` or ```make```
 Each software available in this image are installed using pacman, so 
 the version is usually the last available on Archlinux.
 Latex packages included:
-- texlive-most
-- texlive-lang
+- texlive-core
+- texlive-formatsextra
+- texlive-latexextra
+- texlive-pictures
+- texlive-pstricks
+- texlive-publishers
+- texlive-science
 - biber
 
 This software are available:
 - python 
+- pip
 - cargo  
 - numpy
 - scipy
@@ -24,4 +30,8 @@ This software are available:
 - base-devel
 - php 8
 - pandoc
+- gnuplot
+- imagemagick
+- ghostscript
+
 
